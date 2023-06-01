@@ -1,23 +1,12 @@
 # sql-challenge
 
-Submission
-Before submitting your Challenge assignment, make sure that you’ve done the following:
-
-Create an image file of your ERD.
-
-Create a .sql file of your table schemata.
-
-Create a .sql file of your queries.
-
-(Optional) Create a Jupyter notebook of the bonus analysis. (Note: there will be no extra points for completing this.)
-
-
-----------------------------
 
 For this task, I researched people whom a company employed during the 1980s and 1990s. All that remained of the employee database from that period are six CSV files. I designed the tables to hold the data from the CSV files, imported the CSV files into a SQL database, and then answered questions about the data. Through this, I performed data modeling, data engineering, and data analysis, respectively.
 
 
-In order to conduct data modeling, I inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables. To create the sketch, I used a tool like QuickDBD.
+In order to conduct data modeling, I inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables. To create the sketch, I used QuickDBD.
+![alt text](https://github.com/msryannhawkins/sql-challenge/blob/main/EmployeeSQL/DB/ERD_SQL_Challenge.png
+ "ERD")
 
 Then, for my data engineering portion, I used the provided information to create a table schema for each of the six CSV files. I made sure to do the following:
     *Remembered to specify the data types, primary keys, foreign keys, and other constraints.
